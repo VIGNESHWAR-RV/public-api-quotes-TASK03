@@ -1,0 +1,37 @@
+
+body{
+    margin-top: 0;
+    padding: 0;
+    background:linear-gradient(to right, red , white);
+}
+ /*=========================
+       for heading
+ ========================*/
+div{
+    text-align:center;
+}
+div>h2{
+    font-family: 'Comforter', cursive;
+    font-size: 8vmin;
+    color :black;
+    text-decoration: underline;
+    margin-bottom:20px;
+}
+
+ /*=========================
+   for cards in the results
+ ========================*/
+
+.card {
+    font-family: 'Comforter Brush', cursive;
+    font-size: 3vmin;
+    border: none;
+    width: 30vmax;
+    height: 100%max-content;
+    display: inline-grid;
+    margin: 6px;
+  }
+.card>p{
+    font-family: 'Kalam', cursive;
+    font-size: 4vmin;
+}
